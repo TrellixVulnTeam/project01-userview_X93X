@@ -26,7 +26,7 @@ export default function SelectGstReturnType() {
             }
             axios({
                 method:"GET",
-                url:"http://localhost:3800/v1/user/allproduct",
+                url:"3.108.219.92:3800/v1/user/allproduct",
                 headers: {
                   "Authorization": `Bearer ${token}`
                 }
@@ -213,7 +213,7 @@ export default function SelectGstReturnType() {
         // /gst/return/type
         axios({
             method:"POST",
-            url:"http://localhost:3800/v1/user/gst/return/type",
+            url:"3.108.219.92:3800/v1/user/gst/return/type",
             headers: {
                 "Authorization":`Bearer ${token}`
             }, 

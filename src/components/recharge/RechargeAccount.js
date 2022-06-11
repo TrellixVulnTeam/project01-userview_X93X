@@ -39,7 +39,7 @@ export default function RechargeAccount() {
             }
             axios({
                 method:"GET",
-                url:"http://localhost:3800/v1/user/allbanks",
+                url:"3.108.219.92:3800/v1/user/allbanks",
                 headers: {
                     "Authorization": `Bearer ${token}`
                 }
@@ -50,7 +50,7 @@ export default function RechargeAccount() {
             })
             // axios({
             //     method:"POST",
-            //     url:"http://localhost:3800/v1/user/allrecharge",
+            //     url:"3.108.219.92:3800/v1/user/allrecharge",
             //     headers: {
             //         "Authorization": `Bearer ${token}`
             //     }
@@ -93,7 +93,7 @@ export default function RechargeAccount() {
         console.log("2")
         axios({
             method:"POST",
-            url:"http://localhost:3800/v1/user/recharge/save",
+            url:"3.108.219.92:3800/v1/user/recharge/save",
             headers: {
                 "Authorization":`Bearer ${token}`
             },

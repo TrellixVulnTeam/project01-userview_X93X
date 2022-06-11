@@ -114,7 +114,7 @@ export default function ActivateForm() {
     //   formData.append('total_tax_paid', total_tax_paid)
     //   axios({
     //       method:"POST",
-    //       url:"http://localhost:3800/v1/user/itr",
+    //       url:"3.108.219.92:3800/v1/user/itr",
     //       data: {
     //           firstName:"firstName",
     //           lastName:"lastName"

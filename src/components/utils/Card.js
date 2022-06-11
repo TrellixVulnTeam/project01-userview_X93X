@@ -22,7 +22,7 @@ export default function CardComponent({card}) {
             }
             // axios({
             //     method:"POST",
-            //     url:"http://localhost:3800/v1/user/gst/registration/bystatus",
+            //     url:"3.108.219.92:3800/v1/user/gst/registration/bystatus",
             //     headers: {
             //         "Authorization": `Bearer ${token}`
             //     },

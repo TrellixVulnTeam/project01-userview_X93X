@@ -27,7 +27,7 @@ export default function AllTickets() {
               }
               axios({
                   method:"GET",
-                  url:"http://localhost:3800/v1/user/support/ticket/all",
+                  url:"3.108.219.92:3800/v1/user/support/ticket/all",
                   headers: {
                       "Authorization": `Bearer ${token}`
                   }

@@ -77,7 +77,7 @@ export default function IncomeFromOtherSources({data, type}) {
     }
     axios({
       method:"POST",
-      url:"http://localhost:3800/v1/user/itr/update/incomefromothersources",
+      url:"3.108.219.92:3800/v1/user/itr/update/incomefromothersources",
       headers: {
         "Authorization": `Bearer ${token}`
       },

@@ -57,7 +57,7 @@ export default function PurchaseCoupon() {
       }
       axios({
         method: "GET",
-        url: "http://localhost:3800/v1/user/allproduct",
+        url: "3.108.219.92:3800/v1/user/allproduct",
         headers: {
           "Authorization": `Bearer ${token}`
         }
@@ -175,7 +175,7 @@ export default function PurchaseCoupon() {
     data.file4_base64 = file4_base64
     axios({
       method: "POST",
-      url: "http://localhost:3800/v1/user/order",
+      url: "3.108.219.92:3800/v1/user/order",
       data: data,
       headers: {
         "Authorization": `Bearer ${token}`

@@ -41,7 +41,7 @@ export default function GstReturnSubmitForm() {
                 
                 axios({
                     method:"GET",
-                    url:"http://localhost:3800/v1/user/products/unused",
+                    url:"3.108.219.92:3800/v1/user/products/unused",
                     headers: {
                         "Authorization": `Bearer ${token}`
                     }
@@ -120,7 +120,7 @@ export default function GstReturnSubmitForm() {
         console.log(data)
         axios({
             method: "POST",
-            url: "http://localhost:3800/v1/user/gst/return/submitform",
+            url: "3.108.219.92:3800/v1/user/gst/return/submitform",
             headers: {
                 "Authorization": `Bearer ${token}`
             },

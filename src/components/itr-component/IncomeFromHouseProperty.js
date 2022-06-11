@@ -71,7 +71,7 @@ export default function IncomeFromHouseProperty({ data, type }) {
     }
     axios({
       method: "POST",
-      url: "http://localhost:3800/v1/user/itr/update/incomefromproperty",
+      url: "3.108.219.92:3800/v1/user/itr/update/incomefromproperty",
       headers: {
         "Authorization": `Bearer ${token}`
       },

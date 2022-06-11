@@ -27,7 +27,7 @@ export default function RechargeStatus() {
         }
         axios({
           method:"GET",
-          url:"http://localhost:3800/v1/user/allrecharge",
+          url:"3.108.219.92:3800/v1/user/allrecharge",
           headers: {
             "Authorization": `Bearer ${token}`
           }
@@ -50,7 +50,7 @@ export default function RechargeStatus() {
     console.log(data)
     axios({
       method:"GET",
-      url:"http://localhost:3800/v1/user/allrecharge",
+      url:"3.108.219.92:3800/v1/user/allrecharge",
       headers: {
         "Authorization": `Bearer ${token}`
       },

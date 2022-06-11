@@ -22,7 +22,7 @@ export default function OrderList() {
           console.log(token)
           axios({
             method:"POST",
-            url:"http://localhost:3800/v1/user/order/getall/id",
+            url:"3.108.219.92:3800/v1/user/order/getall/id",
             headers: {
               "Authorization": `Bearer ${token}`
             }

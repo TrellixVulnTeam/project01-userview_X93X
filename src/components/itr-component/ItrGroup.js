@@ -29,7 +29,7 @@ useEffect(() => {
       console.log(token)
       axios({
         method:"GET",
-        url:"http://localhost:3800/v1/user/allgroup",
+        url:"3.108.219.92:3800/v1/user/allgroup",
         headers: {
           "Authorization": `Bearer ${token}`
         }
@@ -48,7 +48,7 @@ useEffect(() => {
   const handleSubmit = () => {
     let name = group
     axios({
-      url:'http://localhost:3800/v1/user/addgroup',
+      url:'3.108.219.92:3800/v1/user/addgroup',
       method:'POST',
       data: {name},
       headers: {

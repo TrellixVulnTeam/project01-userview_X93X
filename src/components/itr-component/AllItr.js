@@ -22,7 +22,7 @@ export default function AllItr() {
       checkToken()
       axios({
         method:"GET",
-        url:"http://localhost:3800/v1/user/itr/getall/id",
+        url:"3.108.219.92:3800/v1/user/itr/getall/id",
         headers: {
           "Authorization": `Bearer ${token}`
         },

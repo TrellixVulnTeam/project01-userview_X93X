@@ -87,7 +87,7 @@ export default function AddGstReturn() {
         let data = {business_name, gst_no, state, mobile, email, address, gst_portal_username, gst_portal_password}
         axios({
             method:"POST",
-            url:"http://localhost:3800/v1/user/gst/return/add",
+            url:"3.108.219.92:3800/v1/user/gst/return/add",
             headers: {
                 "Authorization":`Bearer ${token}`
             },

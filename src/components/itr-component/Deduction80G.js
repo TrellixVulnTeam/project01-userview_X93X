@@ -50,7 +50,7 @@ const handleSubmit = (e) => {
   console.log(data)
   axios({
     method:"POST",
-    url:"http://localhost:3800/v1/user/itr/update/deduction80g",
+    url:"3.108.219.92:3800/v1/user/itr/update/deduction80g",
     headers: {
       "Authorization": `Bearer ${token}`
     },

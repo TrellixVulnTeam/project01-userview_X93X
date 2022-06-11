@@ -63,7 +63,7 @@ export default function ItrOptions() {
         if (return_type == "new-return") {
             axios({
                 method: "POST",
-                url: "http://localhost:3800/v1/user/itr/update/updateinfo",
+                url: "3.108.219.92:3800/v1/user/itr/update/updateinfo",
                 headers: {
                     "Authorization": `Bearer ${token}`
                 },

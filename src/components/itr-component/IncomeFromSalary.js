@@ -103,7 +103,7 @@ const IncomeFromSalary = ({ setIncome, data, type }) => {
     }
     axios({
       method: "POST",
-      url: "http://localhost:3800/v1/user/itr/update/incomefromsalary",
+      url: "3.108.219.92:3800/v1/user/itr/update/incomefromsalary",
       headers: {
         "Authorization": `Bearer ${token}`
       },

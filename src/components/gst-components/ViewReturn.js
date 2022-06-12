@@ -23,7 +23,7 @@ export default function ViewReturn() {
       console.log(token)
       axios({
         method: "GET",
-        url: "3.108.219.92:3800/v1/user/gst/return/getall/branch",
+        url: "http://3.108.219.92:3800/v1/user/gst/return/getall/branch",
         data: {},
         headers: {
           "Authorization": `Bearer ${accessToken}`

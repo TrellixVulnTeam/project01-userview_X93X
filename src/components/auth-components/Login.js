@@ -20,7 +20,7 @@ export default function Login({ setAuth }) {
         console.log(password)
         axios({
             method: 'POST',
-            url: '3.108.219.92:3800/v1/auth/login',
+            url: 'http://3.108.219.92:3800/v1/auth/login',
             data: {
                 loginId: loginId,
                 password: password,

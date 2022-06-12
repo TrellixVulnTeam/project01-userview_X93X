@@ -43,7 +43,7 @@ const handleSubmit = (e) => {
   console.log(data)
   axios({
     method:"POST",
-    url:"3.108.219.92:3800/v1/user/itr/update/taxcollectionsource",
+    url:"http://3.108.219.92:3800/v1/user/itr/update/taxcollectionsource",
     headers: {
       "Authorization": `Bearer ${token}`
     },

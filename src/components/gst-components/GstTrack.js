@@ -30,7 +30,7 @@ export default function GstTrack() {
         }
         axios({
             method:"GET",
-            url:"3.108.219.92:3800/v1/user/gst/getall",
+            url:"http://3.108.219.92:3800/v1/user/gst/getall",
             headers: {
                 "Authorization": `Bearer ${token}`
             },

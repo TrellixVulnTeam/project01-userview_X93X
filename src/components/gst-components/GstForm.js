@@ -389,7 +389,7 @@ export default function GstForm() {
         console.log("data is ", data)
         axios({
             method: "POST",
-            url: "3.108.219.92:3800/v1/user/gst/register",
+            url: "http://3.108.219.92:3800/v1/user/gst/register",
             data: data,
             headers: {
                 "Authorization": `Bearer ${token}`

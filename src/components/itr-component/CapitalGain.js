@@ -48,7 +48,7 @@ const handleSubmit = (e) => {
   console.log(data)
   axios({
     method:"POST",
-    url:"3.108.219.92:3800/v1/user/itr/update/capitalgain",
+    url:"http://3.108.219.92:3800/v1/user/itr/update/capitalgain",
     headers: {
       "Authorization": `Bearer ${token}`
     },

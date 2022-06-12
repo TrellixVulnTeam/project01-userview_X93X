@@ -85,7 +85,7 @@ export default function IncomeFromTransportBusiness({data, type}) {
     console.log(data)
     axios({
       method:"POST",
-      url:"3.108.219.92:3800/v1/user/itr/update/transportincome",
+      url:"http://3.108.219.92:3800/v1/user/itr/update/transportincome",
       headers: {
         "Authorization": `Bearer ${token}`
       },

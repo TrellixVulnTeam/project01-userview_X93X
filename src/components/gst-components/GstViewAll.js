@@ -28,7 +28,7 @@ export default function GstViewAll() {
               }
               axios({
                   method:"POST",
-                  url:"3.108.219.92:3800/v1/user/gst/registration/bystatus",
+                  url:"http://3.108.219.92:3800/v1/user/gst/registration/bystatus",
                   headers: {
                       "Authorization": `Bearer ${token}`
                   },

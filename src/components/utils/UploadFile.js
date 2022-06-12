@@ -16,7 +16,7 @@ export default function UploadFile() {
         console.log(base64)
         axios({
             method:"POST",
-            url:"3.108.219.92:3800/v1/user/fileupload",
+            url:"http://3.108.219.92:3800/v1/user/fileupload",
             data: {
                 file: base64
             }

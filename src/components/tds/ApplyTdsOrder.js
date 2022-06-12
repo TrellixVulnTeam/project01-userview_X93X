@@ -50,7 +50,7 @@ export default function ApplyTdsOrder() {
       }
       axios({
         method:"GET",
-        url:"3.108.219.92:3800/v1/user/allproduct",
+        url:"http://3.108.219.92:3800/v1/user/allproduct",
         headers: {
           "Authorization": `Bearer ${token}`
         }
@@ -107,7 +107,7 @@ export default function ApplyTdsOrder() {
     console.log('data to send is', data_to_send)
     axios({
       method:"POST",
-      url:"3.108.219.92:3800/v1/user/tds/update/client/1",
+      url:"http://3.108.219.92:3800/v1/user/tds/update/client/1",
       headers: {
         "Authorization": `Bearer ${token}`
       },

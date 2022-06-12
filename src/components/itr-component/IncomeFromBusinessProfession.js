@@ -82,7 +82,7 @@ export default function IncomeFromBusinessProfession({data, type}) {
     console.log(data)
     axios({
       method:"POST",
-      url:"3.108.219.92:3800/v1/user/itr/update/incomefromprofession",
+      url:"http://3.108.219.92:3800/v1/user/itr/update/incomefromprofession",
       headers: {
         "Authorization": `Bearer ${token}`
       },

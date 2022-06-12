@@ -35,7 +35,7 @@ export default function ItrForm() {
       }
       axios({
         method: "POST",
-        url: "3.108.219.92:3800/v1/user/tds/getall/id",
+        url: "http://3.108.219.92:3800/v1/user/tds/getall/id",
         headers: {
           "Authorization": `Bearer ${token}`
         },
@@ -70,7 +70,7 @@ const handleDelete = (id) => {
   console.log(id)
   axios({
     method:"POST",
-    url:"3.108.219.92:3800/v1/user/tds/delete/id",
+    url:"http://3.108.219.92:3800/v1/user/tds/delete/id",
     headers: {
       "Authorization":  `Bearer ${token}`
     },

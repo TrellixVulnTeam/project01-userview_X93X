@@ -59,7 +59,7 @@ export default function ItrForm() {
       }
       axios({
         method:"GET",
-        url:"3.108.219.92:3800/v1/user/allgroup",
+        url:"http://3.108.219.92:3800/v1/user/allgroup",
         headers: {
           "Authorization": `Bearer ${token}`
         }
@@ -166,7 +166,7 @@ export default function ItrForm() {
     } catch (e) { console.log(e) }
     axios({
       method:"POST",
-      url:"3.108.219.92:3800/v1/user/itr/personalinfo",
+      url:"http://3.108.219.92:3800/v1/user/itr/personalinfo",
       headers : {
         "Authorization": `Bearer ${token}`
       },

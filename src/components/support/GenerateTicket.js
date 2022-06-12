@@ -68,7 +68,7 @@ export default function GenerateTicket() {
         console.log(data)
         axios({
             method: "POST",
-            url: "3.108.219.92:3800/v1/user/support/save/ticket",
+            url: "http://3.108.219.92:3800/v1/user/support/save/ticket",
             headers: {
                 "Authorization": `Bearer ${token}`,
             },

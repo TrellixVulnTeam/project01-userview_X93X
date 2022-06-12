@@ -43,7 +43,7 @@ export default function ItrForm() {
     }
     axios({
       method: "POST",
-      url: "3.108.219.92:3800/v1/user/tds/register/client",
+      url: "http://3.108.219.92:3800/v1/user/tds/register/client",
       headers: {
         "Authorization": `Bearer ${token}`
       },

@@ -37,7 +37,7 @@ export default function ViewGstReturn() {
     console.log(data)
     axios({
       method:"POST",
-      url:"3.108.219.92:3800/v1/user/gst/return/assingtobdm",
+      url:"http://3.108.219.92:3800/v1/user/gst/return/assingtobdm",
       headers: {
         "Authorization": `Bearer ${token}`
       }, 

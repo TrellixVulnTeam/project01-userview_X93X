@@ -23,7 +23,7 @@ export default function ActivateClient() {
       
       axios({
         method:"GET",
-        url:"3.108.219.92:3800/v1/user/itr/getall/id",
+        url:"http://3.108.219.92:3800/v1/user/itr/getall/id",
         headers: {
           "Authorization": `Bearer ${token}`
         },
